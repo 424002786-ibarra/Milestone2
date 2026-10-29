@@ -88,15 +88,3 @@ Enter the number of the activity you want to run.
 - `0` — Exit the runner
 
 After an activity finishes, you can select another activity from the menu.
-
-## Troubleshooting
-
-**Dart is not recognized:** Make sure the Dart SDK is installed and its `bin` directory is added to PATH.
-
-**Activity file not found:** Check that the activity filenames start with `act7`, `act8`, `act9`, `act10`, or `act11`, and that the files are in the directory where the runner is searching.
-
-**Program fails to run:** Check the Dart code for errors and make sure you are using the correct folder.
-
-## Conclusion
-
-The `all_act.dart` runner provides one menu for accessing the activities from Weeks 7–11. You can launch it through VS Code or PowerShell by navigating to the `bin` folder and running `dart run all_act.dart`.
